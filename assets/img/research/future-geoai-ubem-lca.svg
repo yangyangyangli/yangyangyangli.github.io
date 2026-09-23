@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img">
+<style>
+  .base { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #171717; }
+  .node-title { font-size:16px; font-weight:650; fill:#171717; }
+  .body { font-size:13px; font-weight:400; fill:#5f6368; }
+  .body-dark { font-size:13px; font-weight:500; fill:#171717; }
+  .small { font-size:11px; font-weight:400; fill:#5f6368; }
+  .small-bold { font-size:11px; font-weight:700; fill:#171717; }
+  .accent-text { fill:#880080; }
+  .gap-label { font-size:11px; font-weight:700; fill:#9c3d3d; letter-spacing:.06em; }
+</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L8,4 L0,8 z" fill="#c000b4"/>
+  </marker>
+</defs>
+<rect x="45" y="40" width="235" height="40" rx="10" fill="#f7f7f8" stroke="#d9dce1" stroke-width="1.5"/>
+<text class="base body-dark" x="162" y="65" text-anchor="middle">Climate projections</text>
+<line x1="285" y1="60" x2="385" y2="210" stroke="#c000b4" stroke-width="1.5"/>
+<rect x="45" y="95" width="235" height="40" rx="10" fill="#f7f7f8" stroke="#d9dce1" stroke-width="1.5"/>
+<text class="base body-dark" x="162" y="120" text-anchor="middle">Land use</text>
+<line x1="285" y1="115" x2="385" y2="210" stroke="#c000b4" stroke-width="1.5"/>
+<rect x="45" y="150" width="235" height="40" rx="10" fill="#f7f7f8" stroke="#d9dce1" stroke-width="1.5"/>
+<text class="base body-dark" x="162" y="175" text-anchor="middle">Buildings &amp; infrastructure</text>
+<line x1="285" y1="170" x2="385" y2="210" stroke="#c000b4" stroke-width="1.5"/>
+<rect x="45" y="205" width="235" height="40" rx="10" fill="#f7f7f8" stroke="#d9dce1" stroke-width="1.5"/>
+<text class="base body-dark" x="162" y="230" text-anchor="middle">Energy demand</text>
+<line x1="285" y1="225" x2="385" y2="210" stroke="#c000b4" stroke-width="1.5"/>
+<rect x="45" y="260" width="235" height="40" rx="10" fill="#f7f7f8" stroke="#d9dce1" stroke-width="1.5"/>
+<text class="base body-dark" x="162" y="285" text-anchor="middle">Carbon inventories</text>
+<line x1="285" y1="280" x2="385" y2="210" stroke="#c000b4" stroke-width="1.5"/>
+<rect x="45" y="315" width="235" height="40" rx="10" fill="#f7f7f8" stroke="#d9dce1" stroke-width="1.5"/>
+<text class="base body-dark" x="162" y="340" text-anchor="middle">Monitoring records</text>
+<line x1="285" y1="335" x2="385" y2="210" stroke="#c000b4" stroke-width="1.5"/>
+<rect x="395" y="110" width="250" height="200" rx="18" fill="#f9eaf7" stroke="#c000b4" stroke-width="1.5"/>
+<text class="base node-title" x="520" y="160" text-anchor="middle"><tspan x="520" dy="0">INTEGRATED</tspan><tspan x="520" dy="23">URBAN DATABASE</tspan></text>
+<text class="base body" x="520" y="235" text-anchor="middle"><tspan x="520" dy="0">Open · updateable</tspan><tspan x="520" dy="18">spatially linked · multi-source</tspan></text>
+<line x1="650" y1="210" x2="725" y2="210" stroke="#c000b4" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="735" y="150" width="230" height="120" rx="15" fill="#f7f7f8" stroke="#d9dce1" stroke-width="1.5"/>
+<text class="base node-title" x="850" y="188" text-anchor="middle">GeoAI + UBEM + LCA</text>
+<text class="base small" x="850" y="220" text-anchor="middle"><tspan x="850" dy="0">Inference · energy simulation</tspan><tspan x="850" dy="16">life-cycle assessment</tspan></text>
+<line x1="970" y1="210" x2="1030" y2="210" stroke="#c000b4" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="1040" y="50" width="125" height="325" rx="15" fill="#ffffff" stroke="#c000b4" stroke-width="1.5"/>
+<text class="base small-bold" x="1102" y="78" text-anchor="middle">OUTPUTS</text>
+<text class="base small" x="1102" y="130" text-anchor="middle">Building / neighbourhood</text>
+<text class="base small" x="1102" y="176" text-anchor="middle">Energy + carbon</text>
+<text class="base small" x="1102" y="222" text-anchor="middle">Heat / cold / flood</text>
+<text class="base small" x="1102" y="268" text-anchor="middle">Growth &amp; renewal</text>
+<text class="base small" x="1102" y="314" text-anchor="middle">Dynamic risk maps</text>
+<rect x="395" y="395" width="770" height="74" rx="14" fill="#f7f7f8" stroke="#d9dce1" stroke-width="1.5"/>
+<text class="base small-bold" x="415" y="420" text-anchor="start">EXTENSION MODULES</text>
+<text class="base small" x="415" y="446" text-anchor="start"><tspan x="415" dy="0">Subsurface/site investigation · instrumentation · laboratory observations</tspan><tspan x="415" dy="16">water-related infrastructure · spatial prediction</tspan></text></svg>

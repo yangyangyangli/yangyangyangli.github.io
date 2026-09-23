@@ -422,3 +422,106 @@ button,
     grid-template-columns: 1fr;
   }
 }
+
+// Research uses the Publications page shell and the homepage typography/spacing.
+.research-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  padding-bottom: 2rem;
+
+  .research-intro {
+    max-width: 70ch;
+    color: var(--global-text-color-light);
+  }
+
+  .research-section {
+    display: flow-root;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  .research-intro > p {
+    margin-bottom: 0;
+  }
+
+  h3 {
+    margin: 0 0 1rem;
+    font-size: var(--type-h3);
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  .research-section > h2 {
+    margin: 0 0 1.5rem;
+  }
+
+  p:not(.section-eyebrow) {
+    margin-top: 0;
+    font-size: var(--type-body);
+    line-height: var(--leading-body);
+  }
+
+  .research-direction {
+    display: flow-root;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    margin-top: 1.5rem;
+  }
+
+  .research-direction > p {
+    margin-bottom: 0;
+  }
+
+  .research-direction + .research-direction {
+    margin-top: clamp(2.75rem, 6vw, 4.5rem);
+  }
+
+  .research-svg {
+    width: auto;
+    max-width: 100%;
+    min-width: 0;
+    margin: 1.5rem 0 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: clamp(0.5rem, 1.5vw, 1rem);
+    border: 1px solid #d8d8d2;
+    border-radius: 0.45rem;
+    background: #fff;
+    color: #454b52;
+  }
+
+  .research-direction > p + .research-svg,
+  .research-svg a {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 0.2rem;
+  }
+
+  .research-svg a:focus-visible {
+    outline: 2px solid #454b52;
+    outline-offset: -2px;
+  }
+
+  .research-svg img,
+  .research-svg svg {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    object-fit: contain;
+    filter: none;
+    mix-blend-mode: normal;
+  }
+
+}

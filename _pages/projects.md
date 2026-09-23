@@ -86,15 +86,4 @@ nav_order: 3
     </ul>
   </section>
 
-  <section class="project-section" aria-labelledby="supporting-projects-title">
-    <p class="section-eyebrow">Research foundations</p>
-    <h2 id="supporting-projects-title">Supporting / Earlier Research</h2>
-    <ul class="supporting-project-list">
-      <li>
-        <strong>Spatially Resolved Pea and Lentil LCA</strong>
-        <span>Spatial life-cycle assessment and emissions modelling · 2022</span>
-        <!-- TODO: Add a detailed page after verified project materials and links are supplied. -->
-      </li>
-    </ul>
-  </section>
 </div>

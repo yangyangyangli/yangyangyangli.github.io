@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img">
+<style>
+  .base { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #171717; }
+  .node-title { font-size:16px; font-weight:650; fill:#171717; }
+  .body { font-size:13px; font-weight:400; fill:#5f6368; }
+  .body-dark { font-size:13px; font-weight:500; fill:#171717; }
+  .small { font-size:11px; font-weight:400; fill:#5f6368; }
+  .small-bold { font-size:11px; font-weight:700; fill:#171717; }
+  .accent-text { fill:#880080; }
+  .gap-label { font-size:11px; font-weight:700; fill:#9c3d3d; letter-spacing:.06em; }
+</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L8,4 L0,8 z" fill="#c000b4"/>
+  </marker>
+</defs>
+<rect x="45" y="70" width="205" height="340" rx="15" fill="#f9eaf7" stroke="#c000b4" stroke-width="1.5"/>
+<text class="base small-bold" x="63" y="97" text-anchor="start">01</text>
+<text class="base node-title" x="63" y="145" text-anchor="start"><tspan x="63" dy="0">OBSERVE &amp;</tspan><tspan x="63" dy="20">CHARACTERIZE</tspan></text>
+<text class="base body" x="63" y="245" text-anchor="start"><tspan x="63" dy="0">GIS · remote sensing</tspan><tspan x="63" dy="20">LiDAR · climate / urban data</tspan><tspan x="63" dy="20">monitoring</tspan></text>
+<line x1="254" y1="240" x2="275" y2="240" stroke="#c000b4" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="280" y="70" width="205" height="340" rx="15" fill="#f7f7f8" stroke="#d9dce1" stroke-width="1.5"/>
+<text class="base small-bold" x="298" y="97" text-anchor="start">02</text>
+<text class="base node-title" x="298" y="145" text-anchor="start"><tspan x="298" dy="0">BUILD SPATIAL</tspan><tspan x="298" dy="20">MODELS</tspan></text>
+<text class="base body" x="298" y="245" text-anchor="start"><tspan x="298" dy="0">2D/3D city models</tspan><tspan x="298" dy="20">building archetypes · BIM</tspan><tspan x="298" dy="20">urban morphology</tspan></text>
+<line x1="489" y1="240" x2="510" y2="240" stroke="#c000b4" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="515" y="70" width="205" height="340" rx="15" fill="#f7f7f8" stroke="#d9dce1" stroke-width="1.5"/>
+<text class="base small-bold" x="533" y="97" text-anchor="start">03</text>
+<text class="base node-title" x="533" y="145" text-anchor="start"><tspan x="533" dy="0">MODEL &amp;</tspan><tspan x="533" dy="20">EVALUATE</tspan></text>
+<text class="base body" x="533" y="245" text-anchor="start"><tspan x="533" dy="0">UBEM · LCA</tspan><tspan x="533" dy="20">physics-based simulation</tspan><tspan x="533" dy="20">spatial analysis · GeoAI</tspan></text>
+<line x1="724" y1="240" x2="745" y2="240" stroke="#c000b4" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="750" y="70" width="205" height="340" rx="15" fill="#f7f7f8" stroke="#d9dce1" stroke-width="1.5"/>
+<text class="base small-bold" x="768" y="97" text-anchor="start">04</text>
+<text class="base node-title" x="768" y="145" text-anchor="start"><tspan x="768" dy="0">DESIGN &amp; COMPARE</tspan><tspan x="768" dy="20">PATHWAYS</tspan></text>
+<text class="base body" x="768" y="245" text-anchor="start"><tspan x="768" dy="0">retrofit · electrification</tspan><tspan x="768" dy="20">renewables · district energy</tspan><tspan x="768" dy="20">greening</tspan></text>
+<line x1="959" y1="240" x2="980" y2="240" stroke="#c000b4" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="985" y="70" width="205" height="340" rx="15" fill="#f9eaf7" stroke="#c000b4" stroke-width="1.5"/>
+<text class="base small-bold" x="1003" y="97" text-anchor="start">05</text>
+<text class="base node-title" x="1003" y="145" text-anchor="start"><tspan x="1003" dy="0">SUPPORT</tspan><tspan x="1003" dy="20">DECISIONS</tspan></text>
+<text class="base body" x="1003" y="245" text-anchor="start"><tspan x="1003" dy="0">spatial scenarios</tspan><tspan x="1003" dy="20">energy/carbon · risk maps</tspan><tspan x="1003" dy="20">municipal / planning evidence</tspan></text></svg>

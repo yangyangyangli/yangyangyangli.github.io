@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img">
+<style>
+  .base { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #171717; }
+  .node-title { font-size:16px; font-weight:650; fill:#171717; }
+  .body { font-size:13px; font-weight:400; fill:#5f6368; }
+  .body-dark { font-size:13px; font-weight:500; fill:#171717; }
+  .small { font-size:11px; font-weight:400; fill:#5f6368; }
+  .small-bold { font-size:11px; font-weight:700; fill:#171717; }
+  .accent-text { fill:#880080; }
+  .gap-label { font-size:11px; font-weight:700; fill:#9c3d3d; letter-spacing:.06em; }
+</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L8,4 L0,8 z" fill="#c000b4"/>
+  </marker>
+</defs>
+<rect x="55" y="30" width="350" height="170" rx="15" fill="#fff7f7" stroke="#e6b7b7" stroke-width="1.5"/>
+<text class="base gap-label" x="73" y="55" text-anchor="start">GAP</text>
+<text class="base node-title" x="73" y="87" text-anchor="start">INCOMPLETE URBAN BUILDING DATA</text>
+<text class="base body" x="73" y="122" text-anchor="start"><tspan x="73" dy="0">Geometry, construction, systems,</tspan><tspan x="73" dy="17">operation, and environmental attributes</tspan><tspan x="73" dy="17">are often incomplete or inconsistent.</tspan></text>
+<line x1="230" y1="206" x2="230" y2="245" stroke="#c000b4" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="55" y="260" width="350" height="145" rx="15" fill="#f9eaf7" stroke="#c000b4" stroke-width="1.5"/>
+<text class="base small-bold" x="73" y="287" text-anchor="start">RESEARCH RESPONSE</text>
+<text class="base node-title" x="230" y="330" text-anchor="middle"><tspan x="230" dy="0">GeoAI + geospatial integration</tspan><tspan x="230" dy="20">+ updateable urban building databases</tspan></text>
+<rect x="425" y="30" width="350" height="170" rx="15" fill="#fff7f7" stroke="#e6b7b7" stroke-width="1.5"/>
+<text class="base gap-label" x="443" y="55" text-anchor="start">GAP</text>
+<text class="base node-title" x="443" y="87" text-anchor="start">FRAGMENTED MODELLING METHODS</text>
+<text class="base body" x="443" y="122" text-anchor="start"><tspan x="443" dy="0">GIS, UBEM, BIM, LCA, climate models,</tspan><tspan x="443" dy="17">and monitoring systems are often</tspan><tspan x="443" dy="17">applied separately.</tspan></text>
+<line x1="600" y1="206" x2="600" y2="245" stroke="#c000b4" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="425" y="260" width="350" height="145" rx="15" fill="#f9eaf7" stroke="#c000b4" stroke-width="1.5"/>
+<text class="base small-bold" x="443" y="287" text-anchor="start">RESEARCH RESPONSE</text>
+<text class="base node-title" x="600" y="330" text-anchor="middle"><tspan x="600" dy="0">Integrated, modular, and interoperable</tspan><tspan x="600" dy="20">modelling frameworks</tspan></text>
+<rect x="795" y="30" width="350" height="170" rx="15" fill="#fff7f7" stroke="#e6b7b7" stroke-width="1.5"/>
+<text class="base gap-label" x="813" y="55" text-anchor="start">GAP</text>
+<text class="base node-title" x="813" y="87" text-anchor="start">LIMITED DECISION-READY EVIDENCE</text>
+<text class="base body" x="813" y="122" text-anchor="start"><tspan x="813" dy="0">Decision-makers need interpretable</tspan><tspan x="813" dy="17">evidence connecting energy, carbon, cost,</tspan><tspan x="813" dy="17">resilience, and spatial variation.</tspan></text>
+<line x1="970" y1="206" x2="970" y2="245" stroke="#c000b4" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="795" y="260" width="350" height="145" rx="15" fill="#f9eaf7" stroke="#c000b4" stroke-width="1.5"/>
+<text class="base small-bold" x="813" y="287" text-anchor="start">RESEARCH RESPONSE</text>
+<text class="base node-title" x="970" y="330" text-anchor="middle"><tspan x="970" dy="0">Transparent scenario comparison</tspan><tspan x="970" dy="20">+ multi-criteria decision-support tools</tspan></text></svg>
